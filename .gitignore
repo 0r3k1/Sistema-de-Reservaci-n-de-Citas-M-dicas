@@ -1,0 +1,117 @@
+# ================================================
+# .gitignore para proyectos C# - Visual Studio 2022
+# Proyecto: Sistema de Reservación de Citas Médicas
+# ================================================
+
+# Archivos binarios y de compilación
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+[Tt]mp/
+
+# Archivos de publicación e instalación
+publish/
+*.Publish.xml
+*.ClickOnce/
+
+# Archivos de configuración de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de cache y temporales de VS
+.vs/
+_ReSharper*/
+*.ncb
+*.sdf
+*.cache
+*.pdb
+*.aps
+*.dbmdl
+*.bak
+*.Backup
+*.tmp
+*.temp
+*.log
+
+# Archivos de test y resultados
+TestResults/
+*.VisualState.xml
+*.coverage
+*.coveragexml
+
+# Archivos de paquete NuGet
+*.nupkg
+*.snupkg
+# Carpeta donde se descargan paquetes
+packages/
+# Excepto los archivos necesarios para restaurar
+!packages/build/
+
+# Archivos de dependencias de usuario
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de configuración de build
+*.csproj.user
+*.dbproj.schemaview
+*.tlog
+
+# Archivos de bases de datos locales
+*.mdf
+*.ldf
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Archivos de respaldo o caché de SQLite
+*.sqlite3
+*.sqlite-journal
+
+# Configuración de entorno local o claves
+appsettings.Development.json
+secrets.json
+.env
+
+# Archivos de publicación o empaquetado
+*.exe
+*.dll
+*.zip
+*.tar
+*.gz
+*.msi
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Archivos temporales de compilación .NET
+*.obj
+*.exe
+*.dll
+*.ilk
+*.tlb
+*.tli
+*.tlh
+*.bak
+*.log
+*.lib
+*.sbr
+*.pch
+*.pdb
+
+# Archivos de proyecto Rider o VS Code
+.idea/
+.vscode/
+
+# ================================================
+# Fin del archivo .gitignore
+# ================================================
+
